@@ -13,3 +13,11 @@ Code Structure:
 Benefits:
 Using this design pattern, number of objects created by the client is limited and controlled.
 Any new businesses added to the client can be handled easily and make changes with out disturbing other businesses
+
+
+WorkFlow:
+Client -> Factory Class -> Get business class objects
+
+
+Similarly Abstract Factory Pattern workflow:
+Client -> Abstract Factory Class -> Factory Class -> business class objects
